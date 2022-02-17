@@ -1,0 +1,13 @@
+{
+  "name": "cupcakes",
+  "version": "1.0.0",
+  "description": "Birthday cupcakes!",
+  "main": "index.js",
+  "repository": "https://github.com/LeoRiether/cupcakes",
+  "author": "LeoRiether",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "parcel": "^2.3.1"
+  }
+}
