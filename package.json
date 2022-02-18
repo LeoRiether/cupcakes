@@ -2,11 +2,15 @@
   "name": "cupcakes",
   "version": "1.0.0",
   "description": "Birthday cupcakes!",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/LeoRiether/cupcakes",
   "author": "LeoRiether",
   "license": "MIT",
   "private": false,
+  "scripts": {
+      "start": "yarn parcel src/index.html",
+      "publish": "git subtree push --prefix dist origin gh-pages"
+  },
   "devDependencies": {
     "parcel": "^2.3.1"
   }
